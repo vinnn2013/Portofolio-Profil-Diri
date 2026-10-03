@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haekal Kevin Ricardo - Pelajar & Web Developer</title>
+    
+    <!-- Meta SEO agar mudah masuk ke mesin pencari Google -->
+    <meta name="description" content="Profil resmi Haekal Kevin Ricardo, pelajar SMPN 8 Kota Bandung yang memiliki ketertarikan di bidang coding (HTML, CSS, JavaScript) dan berprestasi di seni Angklung tingkat provinsi.">
+    <meta name="keywords" content="Haekal Kevin Ricardo, SMPN 8 Bandung, Programmer Bandung, Angklung Jawa Barat, Web Developer">
+    <meta name="author" content="Haekal Kevin Ricardo">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            900: '#1e3a8a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-brand-500 selection:text-white">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/80">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="font-bold text-lg tracking-tight hover:text-brand-500 transition-colors">
+                HKR<span class="text-brand-500">.</span>
+            </a>
+            <nav class="hidden md:flex gap-8 text-sm font-medium text-slate-400">
+                <a href="#about" class="hover:text-white transition-colors">Tentang</a>
+                <a href="#skills" class="hover:text-white transition-colors">Keahlian</a>
+                <a href="#achievements" class="hover:text-white transition-colors">Prestasi</a>
+                <a href="#contact" class="hover:text-white transition-colors">Kontak</a>
+            </nav>
+            <a href="https://instagram.com/haekalkevinricardo2013" target="_blank" rel="noopener noreferrer" class="bg-brand-600 hover:bg-brand-500 text-white px-4 py-2 rounded-full text-xs font-semibold flex items-center gap-2 transition-all shadow-lg shadow-brand-600/20">
+                <i data-lucide="instagram" class="w-4 h-4"></i>
+                <span>Ikuti</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="pt-24">
+        <section id="about" class="max-w-5xl mx-auto px-6 py-16 md:py-24">
+            <div class="grid md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-8 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-500/10 border border-brand-500/20 text-brand-500 text-xs font-medium">
+                        <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+                        Pelajar & Developer Muda
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Halo, Saya <br/>
+                        <span class="bg-gradient-to-r from-brand-500 via-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                            Haekal Kevin Ricardo
+                        </span>
+                    </h1>
+
+                    <p class="text-slate-400 text-lg leading-relaxed max-w-2xl">
+                        Seorang pelajar dari <strong class="text-slate-200">Kota Bandung</strong> yang bersekolah di <strong class="text-slate-200">SMPN 8 Kota Bandung</strong>. Memiliki ketertarikan besar pada dunia teknologi, pemrograman web, serta seni musik tradisional angklung.
+                    </p>
+
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#contact" class="bg-white text-slate-900 font-semibold px-6 py-3 rounded-lg hover:bg-slate-200 transition-colors flex items-center gap-2 text-sm">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            Hubungi Saya
+                        </a>
+                        <a href="https://instagram.com/haekalkevinricardo2013" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 text-slate-300 font-semibold px-6 py-3 rounded-lg hover:bg-slate-800 transition-colors flex items-center gap-2 text-sm">
+                            <i data-lucide="instagram" class="w-4 h-4"></i>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:col-span-4 flex justify-center">
+                    <div class="relative w-48 h-48 md:w-64 md:h-64 rounded-2xl bg-gradient-to-tr from-brand-600 to-indigo-600 p-1">
+                        <div class="w-full h-full bg-slate-900 rounded-[14px] flex flex-col items-center justify-center p-6 text-center border border-slate-800/80">
+                            <div class="w-20 h-20 rounded-full bg-brand-500/10 flex items-center justify-center text-brand-500 mb-4">
+                                <i data-lucide="code-2" class="w-10 h-10"></i>
+                            </div>
+                            <h3 class="font-bold text-white">Bandung, ID</h3>
+                            <p class="text-xs text-slate-400 mt-1">SMPN 8 Kota Bandung</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Bio Section -->
+        <section class="bg-slate-900/50 border-y border-slate-800/60 py-12">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Pendidikan -->
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl space-y-3">
+                        <div class="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-500 flex items-center justify-center">
+                            <i data-lucide="graduation-cap" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Pendidikan</h3>
+                        <p class="text-slate-300 font-semibold">SMPN 8 Kota Bandung</p>
+                        <p class="text-sm text-slate-400">Aktif menempuh pendidikan sekolah menengah pertama di Kota Bandung dengan minat kuat pada kegiatan akademis dan ekstrakurikuler.</p>
+                    </div>
+
+                    <!-- Lokasi & Asal -->
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl space-y-3">
+                        <div class="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-500 flex items-center justify-center">
+                            <i data-lucide="map-pin" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Domisili</h3>
+                        <p class="text-slate-300 font-semibold">Kota Bandung, Jawa Barat</p>
+                        <p class="text-sm text-slate-400">Tinggal dan beraktivitas di Kota Bandung, pusat kreativitas dan kebudayaan Sunda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="max-w-5xl mx-auto px-6 py-20">
+            <div class="text-center max-w-xl mx-auto mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-white">Kemampuan Pemrograman</h2>
+                <p class="text-slate-400 text-sm mt-2">Teknologi web yang sedang dipelajari dan dikembangkan untuk membangun situs web interaktif.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- HTML -->
+                <div class="bg-slate-900 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-orange-500 font-bold text-lg">HTML5</span>
+                        <i data-lucide="file-code" class="w-6 h-6 text-orange-500"></i>
+                    </div>
+                    <p class="text-sm text-slate-400">Memahami struktur dasar pemuatan konten web secara semantik dan rapi.</p>
+                </div>
+
+                <!-- CSS -->
+                <div class="bg-slate-900 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-blue-500 font-bold text-lg">CSS3</span>
+                        <i data-lucide="palette" class="w-6 h-6 text-blue-500"></i>
+                    </div>
+                    <p class="text-sm text-slate-400">Mengatur tata letak (layout), pewarnaan, serta tampilan responsif untuk berbagai perangkat.</p>
+                </div>
+
+                <!-- JavaScript -->
+                <div class="bg-slate-900 border border-slate-800/80 p-6 rounded-xl hover:border-slate-700 transition-all">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-yellow-500 font-bold text-lg">JavaScript</span>
+                        <i data-lucide="code" class="w-6 h-6 text-yellow-500"></i>
+                    </div>
+                    <p class="text-sm text-slate-400">Membuat elemen halaman web menjadi lebih dinamis, interaktif, dan berfungsi secara logis.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="bg-slate-900/30 border-t border-slate-800/60 py-20">
+            <div class="max-w-5xl mx-auto px-6">
+                <div class="text-center max-w-xl mx-auto mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-white">Prestasi & Seni</h2>
+                    <p class="text-slate-400 text-sm mt-2">Pencapaian di luar bidang akademis dan teknologi.</p>
+                </div>
+
+                <div class="bg-gradient-to-br from-amber-500/10 via-slate-900 to-slate-900 border border-amber-500/20 p-8 rounded-2xl flex flex-col md:flex-row gap-6 items-center">
+                    <div class="w-16 h-16 rounded-2xl bg-amber-500/20 text-amber-500 flex items-center justify-center shrink-0">
+                        <i data-lucide="trophy" class="w-8 h-8"></i>
+                    </div>
+                    <div class="space-y-2 text-center md:text-left">
+                        <div class="inline-block px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 text-xs font-semibold">
+                            Tingkat Provinsi
+                        </div>
+                        <h3 class="text-xl font-bold text-white">Juara Seni Musik Angklung</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Memiliki pengalaman mendalam dalam memainkan alat musik tradisional Angklung dan berhasil meraih penghargaan juara di tingkat provinsi Jawa Barat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="max-w-5xl mx-auto px-6 py-20 text-center">
+            <div class="max-w-xl mx-auto space-y-6">
+                <h2 class="text-3xl font-bold text-white">Mari Terhubung</h2>
+                <p class="text-slate-400 text-sm">Ingin berdiskusi mengenai proyek web atau sekadar menyapa? Kunjungi media sosial saya di bawah ini.</p>
+                
+                <div class="flex justify-center gap-4 pt-4">
+                    <a href="https://instagram.com/haekalkevinricardo2013" target="_blank" rel="noopener noreferrer" class="bg-slate-900 border border-slate-800 hover:border-brand-500/50 text-slate-200 px-6 py-3 rounded-xl flex items-center gap-3 transition-all hover:scale-105">
+                        <i data-lucide="instagram" class="w-5 h-5 text-pink-500"></i>
+                        <span class="font-medium text-sm">@haekalkevinricardo2013</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/80 py-8 bg-slate-950">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+            <p>© 2026 Haekal Kevin Ricardo. All rights reserved.</p>
+            <p>SMPN 8 Kota Bandung • Jawa Barat</p>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
